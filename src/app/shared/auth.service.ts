@@ -41,6 +41,7 @@ export class AuthService {
   isLoggedIn() {
     return this.getToken() != null;
   }
+  
   destroyToken() {
     localStorage.removeItem('access_token');
     localStorage.removeItem('profil');

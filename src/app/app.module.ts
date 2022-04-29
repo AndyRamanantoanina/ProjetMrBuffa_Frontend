@@ -37,7 +37,7 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import { AuthGuard } from './shared/auth.guard';
 import { LoginComponent } from './login/login.component';
-import { AddNoteDialogComponent } from './add-note-dialog/add-note-dialog.component';
+import { AddNoteDialogComponent } from './assignments/add-note-dialog/add-note-dialog.component';
 
 const routes:Routes = [
   {
@@ -76,13 +76,6 @@ const routes:Routes = [
     MatFormFieldModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatSnackBarModule, MatSidenavModule,
     MatListModule, MatCardModule, MatCheckboxModule, MatSlideToggleModule, MatTableModule, MatToolbarModule,
     RouterModule.forRoot(routes), HttpClientModule, ScrollingModule, DragDropModule, MatStepperModule, 
-  ],
-  exports: [
-    BrowserModule, FormsModule, ReactiveFormsModule,CommonModule,MatDialogModule,
-    BrowserAnimationsModule, MatButtonModule, MatIconModule, MatDividerModule,
-    MatFormFieldModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatSnackBarModule, MatSidenavModule,
-    MatListModule, MatCardModule, MatCheckboxModule, MatSlideToggleModule, MatTableModule, MatToolbarModule,
-    HttpClientModule, ScrollingModule, DragDropModule, MatStepperModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,7 +5,7 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
 import {MatDialog,MatDialogRef} from '@angular/material/dialog';
 import { AuthService } from 'src/app/shared/auth.service';
 import { Router } from '@angular/router';
-import { AddNoteDialogComponent } from '../add-note-dialog/add-note-dialog.component';
+import { AddNoteDialogComponent } from './add-note-dialog/add-note-dialog.component';
 import { AddAssignmentComponent } from './add-assignment/add-assignment.component';
 
 

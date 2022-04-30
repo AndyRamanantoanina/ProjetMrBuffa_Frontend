@@ -6,13 +6,11 @@ Cette partie est la partie Front End du projet MBDS Madagascar 2021 - 2022.
 
 Voici le lien du projet déployé : https://frontend-assignmentproject.herokuapp.com/
 
-Design inspiré de https://www.youtube.com/watch?v=mvXX32keamM&t=4s
-
 ## Pré-requis
 
 - Angular CLI version version 13.2.5
 - IDE : Visual Studio Code ( par exemple )
-- Node version - '16.14.0'
+- Node version - '14.17.3'
 
 ## Installation
 

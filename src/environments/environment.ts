@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  myurl: "https://back-projet-buffa.herokuapp.com/api"
+  myurl: "localhost:8010/api"
 };
 
 /*
